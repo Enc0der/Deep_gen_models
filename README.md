@@ -1,2 +1,2 @@
-# Deep_gen_models
-Repo for homeworks for course
+# Топалиди Александра Валерьевна
+# Глубокие генеративные модели
