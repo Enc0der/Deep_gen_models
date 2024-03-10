@@ -66,4 +66,4 @@
 Хотя общая точность улучшилась, необходимо дополнительно работать над снижением ложных срабатываний.
 
 ## Логирование обучения
-Для логирования использовался Weights & Biases. Логи доступны в соответствующих разделах ноутбука.
+Для логирования использовался Weights & Biases. Логи доступны по ссылке: https://wandb.ai/topalidia/homework_1.2/reports/loss-24-03-10-22-32-05---Vmlldzo3MDk4MDU4?accessToken=01ic9btyauc4dro3353exdqwwv8b9dpyzer8btc3mywu8aervhxugdlyo9tyv3qh
