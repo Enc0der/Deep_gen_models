@@ -69,3 +69,9 @@ images/examples.gif
 
 ![ - Итоговый график потерь в процессе обучения](images/Loss.jpeg)
 
+## Также, для вашего удобства, вы можете найти ноутбук по адресу: 
+
+ ```
+https://www.kaggle.com/code/squirrelemma/celeba
+ ```
+
