@@ -1,7 +1,6 @@
-![images_table](https://github.com/Enc0der/Deep_gen_models/assets/70717995/00baec00-b2f3-4743-b86c-e8ad1fbc52fd)# Проекция изображений с использованием StyleGAN2-ADA-PyTorch
+# Проекция изображений с использованием StyleGAN2-ADA-PyTorch
 
- В этом документе рассмотрены два подхода к проекции изображений с использованием библиотеки StyleGAN2-ADA-PyTorch. Для каждого из подходов приведены описания изменений в коде и объяснения их влияния на процесс проекции.
-
+В этом документе рассмотрены два подхода к проекции изображений с использованием библиотеки StyleGAN2-ADA-PyTorch. Для каждого из подходов приведены описания изменений в коде и объяснения их влияния на процесс проекции.
 
 ## Попытка 1: Начальный подход к проекции изображений
 ### Изменения в коде и их влияние
@@ -13,7 +12,7 @@
 
 # Итоги на даном этапе: 
 
-![Изображение 3](/artifacts/images_table.png)
+![images_table](https://github.com/Enc0der/Deep_gen_models/assets/70717995/00baec00-b2f3-4743-b86c-e8ad1fbc52fd)
 
 ## Попытка 2: Улучшенный подход к проекции изображений
 
@@ -157,16 +156,16 @@ display(Image.open(mixed_image_path))
 4. **Визуализация результатов**: В коде предусмотрена возможность сравнения исходного изображения и изображения с добавленной улыбкой, что позволяет наглядно оценить результаты изменений.
 
 
-![Изображение 3](/artifacts/smile1.png)
-![Изображение 3](/artifacts/smile2.png)
-![Изображение 3](/artifacts/smile3.png)
-![Изображение 3](/artifacts/smile4.png)
-![Изображение 3](/artifacts/smile5.png)
-![Изображение 3](/artifacts/smile6.png)
-![Изображение 3](/artifacts/smile7.png)
-![Изображение 3](/artifacts/smile8.png)
-![Изображение 3](/artifacts/smile9.png)
-![Изображение 3](/artifacts/smile10.png)
+![Изображение 3](artifacts/smile1.png)
+![Изображение 3](artifacts/smile2.png)
+![Изображение 3](artifacts/smile3.png)
+![Изображение 3](artifacts/smile4.png)
+![Изображение 3](artifacts/smile5.png)
+![Изображение 3](artifacts/smile6.png)
+![Изображение 3](artifacts/smile7.png)
+![Изображение 3](artifacts/smile8.png)
+![Изображение 3](artifacts/smile9.png)
+![Изображение 3](artifacts/smile10.png)
 
 # Пересадка лиц 
 
