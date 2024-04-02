@@ -124,13 +124,13 @@ display(Image.open(mixed_image_path))
 
 
 ![Изображение 1](artifacts/new_alegned_blue.jpg)
-![Изображение 3](/artifacts/style23.png)
+![Изображение 3](artifacts/style23.png)
 
 ![Изображение 2](artifacts/new_aligned_green.jpg)
-![Изображение 2.1](/artifacts/style2.png)
+![Изображение 2.1](artifacts/style2.png)
 
 ![Изображение 3](artifacts/new_al_style.jpg)
-![Изображение 1.1](/artifacts/style22.png)
+![Изображение 1.1](artifacts/style22.png)
 
 
 
