@@ -11,9 +11,7 @@
 - Добавлен sceduler
 
 # Итоги на даном этапе: 
-
 ![images_table](https://github.com/Enc0der/Deep_gen_models/assets/70717995/00baec00-b2f3-4743-b86c-e8ad1fbc52fd)
-
 ## Попытка 2: Улучшенный подход к проекции изображений
 
 ### Изменения в коде и их влияние
@@ -85,9 +83,9 @@ save_image(denormalize(mixed_image.clamp(-1, 1)), mixed_image_path)
 
 ### Итоги 1 обработки:
 
-![Изображение 3](/artifacts/style1.png)
-![Изображение 3](/artifacts/style12.png)
-![Изображение 3](/artifacts/style13.png)
+![Изображение 3](artifacts/style1.png)
+![Изображение 3](artifacts/style12.png)
+![Изображение 3](artifacts/style13.png)
 
 Видно, что стили смешиваются на более высоких уровнях векторов, что не позволяет поменять оригиналу цвет лица.
 
