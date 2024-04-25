@@ -1,5 +1,8 @@
 # Эксперименты по обучению модели Stable Diffusion 1.5
 
+Notebook с экспериментами очень тяжелый, поэтому лежит тут: https://drive.google.com/file/d/1hRUwfdEBPcFOnvRTxlCta4Co0FfFh12E/view?usp=drive_link
+:-)
+
 ## Описание проекта
 
 Проект включает анализ двух различных методов обучения для генерации лицевых изображений с использованием модели Stable Diffusion. Цель анализа - оценить, как изменение некоторых ключевых параметров обучения влияет на качество и эффективность генерации изображений.
@@ -10,7 +13,7 @@
 
 Модель дообучалась на 19 фото актера Noel Fisher:
 
-![- Неудачный актер](artifacts/noel.png)
+![- Неудачный актер](artifacts/noel.JPG)
 
 1. **Изменение размера изображений**: Изображения сжимаются до размера 64x64 пикселей перед обучением, что может снизить качество детализации изображений.
    
@@ -54,6 +57,10 @@
 ### Сравнение чекпойнтов LoRA и U-Net
 
 В этом документе представлено сравнение двух продвинутых технологий в области машинного обучения: LoRA (Low-Rank Adaptation) и U-Net. Оба чекпойнта использовались для тренировки моделей на задачах связанных с обработкой изображений и текста.
+
+Всего было проведено 7 экспериментов, в которых настраивались такие параменты,как rank и learning rate. За подробстями об экспериментах приглашаю в ноутбук!
+
+Далее представлено сравнение двух лучших чекпойнтов:
 
 #### 1. Архитектура и настройка тренировки
 
@@ -106,26 +113,26 @@
 
 # Сгенерированные картинки Unet:
 
-![- Noel](artifacts/noelUnet.png)
-![- Noel](artifacts/noelUnet1.png)
-![- Noel](artifacts/noelUnet2.png)
-![- Noel](artifacts/noelUne3t.png)
-![- Noel](artifacts/noelUnet4.png)
-![- Noel](artifacts/noelUnet5.png)
-![- Noel](artifacts/noelUnet6.png)
-![- Noel](artifacts/noelUnet7.png)
-![- Noel](artifacts/noelUnet8.png)
+![- Noel](artifacts/NoelUnet.png)
+![- Noel](artifacts/NoelUnet1.png)
+![- Noel](artifacts/NoelUnet2.png)
+![- Noel](artifacts/NoelUne3t.png)
+![- Noel](artifacts/NoelUnet4.png)
+![- Noel](artifacts/NoelUnet5.png)
+![- Noel](artifacts/NoelUnet6.png)
+![- Noel](artifacts/NoelUnet7.png)
+![- Noel](artifacts/NoelUnet8.png)
 
 # Сгенерированные картинки Unet:
-![- Noel](artifacts/noelLora.png)
-![- Noel](artifacts/noelLora1.png)
-![- Noel](artifacts/noelLora2.png)
-![- Noel](artifacts/noelLora3.png)
-![- Noel](artifacts/noelLora4.png)
-![- Noel](artifacts/noelLora5.png)
-![- Noel](artifacts/noelLora6.png)
-![- Noel](artifacts/noelLora7.png)
-![- Noel](artifacts/noelLora8.png)
+![- Noel](artifacts/NoelLora.png)
+![- Noel](artifacts/NoelLora1.png)
+![- Noel](artifacts/NoelLora2.png)
+![- Noel](artifacts/NoelLora3.png)
+![- Noel](artifacts/NoelLora4.png)
+![- Noel](artifacts/NoelLora5.png)
+![- Noel](artifacts/NoelLora6.png)
+![- Noel](artifacts/NoelLora7.png)
+![- Noel](artifacts/NoelLora8.png)
 
 ### Использование ControlNet
 
@@ -203,6 +210,9 @@ except Exception as e:
     logging.error(f"An error occurred: {e}")
 ```
 
-#### Выводы
+# Сгенерированные картинки Controlnet:
 
-ControlNet предоставляет мощные инструменты для генерации изображений с высоким уровнем детализации. Использование этой модели в Jupyter Notebook позволяет эффективно интегрировать процессы машинного обучения и генерации изображений в научно-исследовательские и разработческие проекты.
+
+![- Noel](artifacts/NoelControlnet.png)
+![- Noel](artifacts/NoelControlnet1.png)
+![- Noel](artifacts/NoelControlnet2.png)
