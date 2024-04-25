@@ -113,10 +113,10 @@ Notebook с экспериментами очень тяжелый, поэтом
 
 # Сгенерированные картинки Unet:
 
-![- Noel](artifacts/NoelUnet.png)
+![- Noel](artifacts/NoelUNet.png)
 ![- Noel](artifacts/NoelUnet1.png)
 ![- Noel](artifacts/NoelUnet2.png)
-![- Noel](artifacts/NoelUne3t.png)
+![- Noel](artifacts/NoelUnet3.png)
 ![- Noel](artifacts/NoelUnet4.png)
 ![- Noel](artifacts/NoelUnet5.png)
 ![- Noel](artifacts/NoelUnet6.png)
