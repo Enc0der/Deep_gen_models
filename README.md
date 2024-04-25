@@ -113,8 +113,7 @@ Notebook с экспериментами очень тяжелый, поэтом
 
 # Сгенерированные картинки Unet:
 
-![- Noel](artifacts/NoelUNet.png)
-![- Noel](artifacts/NoelUnet1.png)
+![- Noel](artifacts/NoelUNet1.png)
 ![- Noel](artifacts/NoelUnet2.png)
 ![- Noel](artifacts/NoelUnet3.png)
 ![- Noel](artifacts/NoelUnet4.png)
@@ -123,8 +122,8 @@ Notebook с экспериментами очень тяжелый, поэтом
 ![- Noel](artifacts/NoelUnet7.png)
 ![- Noel](artifacts/NoelUnet8.png)
 
-# Сгенерированные картинки Unet:
-![- Noel](artifacts/NoelLora.png)
+# Сгенерированные картинки LoRA:
+
 ![- Noel](artifacts/NoelLora1.png)
 ![- Noel](artifacts/NoelLora2.png)
 ![- Noel](artifacts/NoelLora3.png)
@@ -133,6 +132,8 @@ Notebook с экспериментами очень тяжелый, поэтом
 ![- Noel](artifacts/NoelLora6.png)
 ![- Noel](artifacts/NoelLora7.png)
 ![- Noel](artifacts/NoelLora8.png)
+![- Noel](artifacts/NoelLora9.png)
+![- Noel](artifacts/NoelLora10.png)
 
 ### Использование ControlNet
 
@@ -215,4 +216,3 @@ except Exception as e:
 
 ![- Noel](artifacts/NoelControlnet.png)
 ![- Noel](artifacts/NoelControlnet1.png)
-![- Noel](artifacts/NoelControlnet2.png)
